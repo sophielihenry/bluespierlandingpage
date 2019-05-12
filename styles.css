@@ -168,10 +168,21 @@ main {
   height: 280px;
 }
 
+.contactusBtn {
+  background-color: #447cab;
+  border:1px solid transparent;
+}
+.contactusBtn:hover {
+   background-color:#3fcfcc;
+}
 
 button:hover {
+    transition: background-color 0.25s ease-out, color 0.25s ease
+
+}
+
+.callBtn:hover {
   opacity:1;
-  transition: background-color 0.25s ease-out, color 0.25s ease-out;
 }
 
 button {
@@ -184,13 +195,29 @@ button {
   border-radius: 50px;
   min-width: 235px;
   background-color: #3fcfcc;
-  border: 1px solid #3fcfcc;
+  border: 1px solid transparent;
   opacity: 0.9;
 }
 
 footer {
   background-color: #3fcfcc;
   height: 70px;
+  color:#fefefe;
+  font-size: .9rem;
+  opacity: .8;
+  display: flex;
+  justify-content: space-between;
+  padding:22px;
+}
+
+footer a {
+  color:white;
+}
+
+footer a:hover {
+  color:white;
+  transition: color .2s;
+  text-decoration: none;
 }
 
 /*contact us*/
@@ -211,19 +238,19 @@ footer {
 }
 
 .fab {
-    color: #3fcfcc;
-    font-size: 1.8rem;
-    margin-right: 10px;
+  color: #3fcfcc;
+  font-size: 1.8rem;
+  margin-right: 10px;
 }
 
 
 /* follow us  */
 
 .followUs {
-    display: flex;
-    font-size: 1.1rem;
+  display: flex;
+  font-size: 1.1rem;
   margin-top:30px;
-      align-content: center;
+  align-content: center;
 }
 
 .followUs p {
