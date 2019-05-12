@@ -1,3 +1,11 @@
+html * {
+  font-family: "Montserrat",Helvetica,Arial,sans-serif
+}
+
+
+
+
+
 /* header */
 header {
   background-color: #447cab;
@@ -143,62 +151,78 @@ main {
   padding-top: 85px;
 }
 
-
 .container {
-
   margin-bottom: 100px;
 }
 
 .footerCallback {
-color: white;
-    background-color: #447cab;
-
-    border-radius: 6px;
-    text-align: center;
-    flex-direction: column;
+  color: white;
+  background-color: #447cab;
+  border-radius: 6px;
+  text-align: center;
+  flex-direction: column;
   text-transform:uppercase;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-        height: 280px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+}
+
+.callBtn {
+  background-color: #3fcfcc;
+  border: 1px solid #3fcfcc;
+  opacity:0.9;
+}
+
+.contactusBtn {
+  background-color: #447cab;
+  border: 1px solid #447cab;
+}
+
+.callBtn:hover {
+  opacity:1;
+}
+
+.contactusBtn:hover {
+  background-color:#3fcfcc;
+  border: 1px solid #3fcfcc;
+}
+
+button:hover {
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
 }
 
 button {
+  font-weight: 400;
+  padding: 16px;
   color: white;
-  border-radius: 15px;
-  background-color: #3fcfcc;
-  border: 1px solid #3fcfcc;
   font-size: 1rem;
   text-transform:uppercase;
   letter-spacing: 1.6px;
   border-radius: 50px;
-  font-weight: 400;
-  padding: 16px;
+  min-width: 235px;
 }
-
-
 
 footer {
-
-      background-color: #3fcfcc;
-    height: 70px;
-
-
+  background-color: #3fcfcc;
+  height: 70px;
 }
 
-
-
+.contactWrapper p {
+  font-size: 1.1rem;
+  color: #ADB9C6;
+  font-weight: 300;
+}
 
 .contactWrapper {
   display:flex;
 }
 
-
 .fas {
   color:#40CDFD;
-    padding: 6px 15px 0 0;
-  }
+  padding: 6px 15px 0 0;
+}
 
 
 
