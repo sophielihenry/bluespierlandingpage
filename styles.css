@@ -79,7 +79,7 @@ main {
 /* page container  */
 .pageContainer {
   width: 66vw;
-  padding-left: 50px;
+  padding-left: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,6 +88,7 @@ main {
 .pageContainer h2 {
   color: #4D4E4C;
   text-align:center;
+      margin-bottom: 45px;
 }
 
 .pageContainer  p {
@@ -149,17 +150,18 @@ main {
 }
 
 .footerCallback {
-  color: white;
-  background-color: #447cab;
-  background-size: cover;
-  background-position: center;
-  border-radius: 6px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-transform: uppercase;
-  font-size: 2rem;
+color: white;
+    background-color: #447cab;
+
+    border-radius: 6px;
+    text-align: center;
+    flex-direction: column;
+  text-transform:uppercase;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        height: 280px;
 }
 
 button {
