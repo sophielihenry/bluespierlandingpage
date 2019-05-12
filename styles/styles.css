@@ -1,5 +1,12 @@
+@import "mediaqueries.css";
+
+
 html * {
   font-family: "Montserrat",Helvetica,Arial,sans-serif
+}
+
+strong {
+  font-weight:500;
 }
 
 /* header */
@@ -82,8 +89,8 @@ main {
 
 /* page container  */
 .pageContainer {
-  width: 66vw;
-  padding-left: 100px;
+/*  width: 66vw;
+*/  padding-left: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -230,6 +237,11 @@ footer a:hover {
 
 .contactWrapper {
   display:flex;
+}
+
+.contactWrapper a:hover{
+  text-decoration:none;
+  color:red;
 }
 
 .fas {

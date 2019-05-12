@@ -1,0 +1,28 @@
+/* MEDIA QUERIES */
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+.body {
+  text-align:none;
+}
+
+.landingPageTitle h1 {
+  font-size:1.5rem;
+}
+
+.landingPageTitle p {
+  font-size:1.4rem;
+}
+
+.pageContainer {
+      padding-top: 20px;
+    font-size: 1.9rem;
+    padding-left:0;
+}
+
+
+}
+
