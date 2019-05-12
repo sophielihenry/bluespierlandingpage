@@ -69,19 +69,25 @@ img {
   font-size:1.5rem;
 }
 
+/* page container  */
+.pageContainer {
+  width: 66vw;
+  padding-left: 50px;
+}
 
-
-.container h2 {
+.pageContainer h2 {
   color: #4D4E4C;
 }
 
-.container p {
+.pageContainer  p {
   font-weight: 300;
   font-size: 1.1rem;
   line-height: 1.7rem;
   color:#7F8C92;
 }
 
+/* footer  */
+/* our products  */
 .categories {
   display: flex;
   flex-direction: column;
@@ -112,11 +118,14 @@ img {
   text-decoration:none;
 }
 
+.categories h3 {
+  color:#4D4E4C
+}
 
-
-
-
-
+.container {
+  border-top: 1px solid #E6E6E6;
+  padding-top: 85px;
+}
 
 
 
