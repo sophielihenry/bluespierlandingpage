@@ -1,12 +1,31 @@
 header {
   background-color: #447cab;
-  opacity:0.9;
+  opacity:0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:185px;
 }
 
-nav li {
+nav ul li {
   list-style-type: none;
   text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  margin-right: 20px;
+}
+
+nav ul li a {
   color:white;
+  opacity:0.6;
+
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color:white;
+  opacity:1;
 }
 
 img {
