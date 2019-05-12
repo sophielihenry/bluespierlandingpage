@@ -1,3 +1,14 @@
-.test {
-  color:blue;
+header {
+  background-color: #447cab;
+  opacity:0.9;
+}
+
+nav li {
+  list-style-type: none;
+  text-transform: uppercase;
+  color:white;
+}
+
+img {
+  max-width:230px;
 }
