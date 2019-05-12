@@ -2,10 +2,6 @@ html * {
   font-family: "Montserrat",Helvetica,Arial,sans-serif
 }
 
-
-
-
-
 /* header */
 header {
   background-color: #447cab;
@@ -155,59 +151,49 @@ main {
   margin-bottom: 100px;
 }
 
-.footerCallback {
+
+/*call back   */
+
+.callbackWrapper {
   color: white;
   background-color: #447cab;
   border-radius: 6px;
   text-align: center;
   flex-direction: column;
   text-transform:uppercase;
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 280px;
 }
 
-.callBtn {
-  background-color: #3fcfcc;
-  border: 1px solid #3fcfcc;
-  opacity:0.9;
-}
-
-.contactusBtn {
-  background-color: #447cab;
-  border: 1px solid #447cab;
-}
-
-.callBtn:hover {
-  opacity:1;
-}
-
-.contactusBtn:hover {
-  background-color:#3fcfcc;
-  border: 1px solid #3fcfcc;
-}
 
 button:hover {
+  opacity:1;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
 }
 
 button {
   font-weight: 400;
-  padding: 16px;
+  padding: 13px;
   color: white;
-  font-size: 1rem;
-  text-transform:uppercase;
+  font-size: 0.8rem;
+  text-transform: uppercase;
   letter-spacing: 1.6px;
   border-radius: 50px;
   min-width: 235px;
+  background-color: #3fcfcc;
+  border: 1px solid #3fcfcc;
+  opacity: 0.9;
 }
 
 footer {
   background-color: #3fcfcc;
   height: 70px;
 }
+
+/*contact us*/
 
 .contactWrapper p {
   font-size: 1.1rem;
@@ -224,11 +210,26 @@ footer {
   padding: 6px 15px 0 0;
 }
 
+.fab {
+    color: #3fcfcc;
+    font-size: 1.8rem;
+    margin-right: 10px;
+}
 
 
+/* follow us  */
 
+.followUs {
+    display: flex;
+    font-size: 1.1rem;
+  margin-top:30px;
+      align-content: center;
+}
 
-
+.followUs p {
+  margin-right: 10px;
+  color:#7F8C92;
+}
 
 
 
