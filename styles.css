@@ -190,11 +190,15 @@ footer {
 
 
 
+.contactWrapper {
+  display:flex;
+}
 
 
-
-
-
+.fas {
+  color:#40CDFD;
+    padding: 6px 15px 0 0;
+  }
 
 
 
