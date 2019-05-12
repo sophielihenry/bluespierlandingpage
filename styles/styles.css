@@ -272,3 +272,71 @@ footer a:hover {
 
 
 
+
+/* MEDIA QUERIES */
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+body, html{
+    margin:0;
+    padding:0;
+    display:block;
+}
+
+
+
+
+
+footer p {
+  margin-bottom:0;
+  height: 160px;
+}
+
+footer {
+  text-align:center;
+  height:200px;
+}
+
+.container h3 {
+ font-size:1.125rem;
+}
+
+.callbackWrapper {
+      height: 205px;
+    /* padding: 13px; */
+    width: 95vw;
+    margin: auto;
+    font-size:1.1875rem;
+
+
+
+}
+.pageContainer p {
+  width:90vw;
+}
+
+}
+.landingPageTitle h1 {
+  font-size:1.5rem;
+}
+
+.landingPageTitle p {
+  font-size:1rem;
+}
+
+.pageContainer {
+      padding-top: 20px;
+    font-size: 1.9rem;
+    padding-left:0px;
+}
+
+.pageContainer h2 {
+      width: 90%;
+    font-size: 1.8rem;
+}
+
+}
+
