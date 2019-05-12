@@ -82,9 +82,35 @@ img {
   color:#7F8C92;
 }
 
+.categories {
+  display: flex;
+  flex-direction: column;
+}
 
+.categories a {
+  transition: color .2s;
+  background-color: transparent;
+  border: 1px solid #E6E6E6;
+  color: #ADB9C6;
+  text-transform: none;
+  font-size: 1.1em;
+  font-weight: 300;
+  position: relative;
+  padding-left: 50px;
+  width: 100%;
+  max-width: 430px;
+  text-align: left;
+  line-height: 1.3em;
+  margin-bottom: 11px;
+  border-radius: 40px;
+  padding: 16px;
+}
 
-
+.categories a:hover {
+  background: white;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.1);
+  text-decoration:none;
+}
 
 
 
