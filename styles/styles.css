@@ -286,7 +286,9 @@ body, html{
     display:block;
 }
 
-
+ul {
+  display:none;
+}
 
 
 
@@ -318,13 +320,26 @@ footer {
   width:90vw;
 }
 
+.overlapDesign {
+      width: 95%;
+}
+
+
+iframe {
+      width: 95vw;
+    height: 230px;
+}
+
 }
 .landingPageTitle h1 {
   font-size:1.5rem;
 }
 
 .landingPageTitle p {
-  font-size:1rem;
+     font-size: 1rem;
+    max-width: 580px;
+    font-weight: 300;
+    margin: 0 auto;
 }
 
 .pageContainer {
