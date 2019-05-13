@@ -1,6 +1,3 @@
-@import "mediaqueries.css";
-
-
 html * {
   font-family: "Montserrat",Helvetica,Arial,sans-serif
 }
@@ -50,11 +47,11 @@ img {
   max-width:230px;
 }
 
-
+/* main */
 main {
     border-bottom: 1px solid #E6E6E6;
-
 }
+
 /* overlap design */
 .overlapDesign {
   display: block;
@@ -88,9 +85,9 @@ main {
 }
 
 /* page container  */
-.pageContainer {
-/*  width: 66vw;
-*/  padding-left: 100px;
+/*.pageContainer {
+  width: 90vw;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,7 +96,7 @@ main {
 .pageContainer h2 {
   color: #4D4E4C;
   text-align:center;
-      margin-bottom: 45px;
+  margin-bottom: 45px;
 }
 
 .pageContainer  p {
@@ -108,8 +105,9 @@ main {
   line-height: 1.7rem;
   color:#7F8C92;
   padding-top: 35px;
+  padding-bottom: 60px;
 }
-
+*/
 /* footer  */
 /* our products  */
 .categories {
@@ -158,9 +156,7 @@ main {
   margin-bottom: 100px;
 }
 
-
 /*call back   */
-
 .callbackWrapper {
   color: white;
   background-color: #447cab;
@@ -172,7 +168,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 280px;
+  height: 300px;
 }
 
 .contactusBtn {
@@ -181,6 +177,19 @@ main {
 }
 .contactusBtn:hover {
    background-color:#3fcfcc;
+}
+
+/* follow us   */
+.followUs {
+  display: flex;
+  font-size: 1.1rem;
+  margin-top:30px;
+  align-content: center;
+}
+
+.followUs p {
+  margin-right: 10px;
+  color:#7F8C92;
 }
 
 .followUs a {
@@ -240,20 +249,24 @@ footer a:hover {
 }
 
 /*contact us*/
-
 .contactWrapper p {
   font-size: 1.1rem;
   color: #ADB9C6;
   font-weight: 300;
 }
 
+.contactWrapper a {
+  display:flex;
+}
+
 .contactWrapper {
   display:flex;
 }
 
-.contactWrapper a:hover{
-  text-decoration:none;
-  color:red;
+.contactWrapper a:hover {
+  text-decoration: none !important;
+  color: #447cab !important;
+  transition: color .2s;
 }
 
 .fas {
@@ -267,28 +280,7 @@ footer a:hover {
   margin-right: 10px;
 }
 
-
-/* follow us  */
-
-.followUs {
-  display: flex;
-  font-size: 1.1rem;
-  margin-top:30px;
-  align-content: center;
-}
-
-.followUs p {
-  margin-right: 10px;
-  color:#7F8C92;
-}
-
-
-
-
 /* MEDIA QUERIES */
-
-
-
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
 
@@ -321,20 +313,20 @@ footer a:hover {
     width: 95vw;
     margin: auto;
     font-size:1.1875rem;
-    }
+  }
 
-    .pageContainer p {
-      width:90vw;
-    }
+  /*.pageContainer p {
+    width:90vw;
+  }*/
 
-    .overlapDesign {
-      width: 95%;
-    }
+  .overlapDesign {
+    width: 95%;
+  }
 
-    iframe {
-      width: 95vw;
-      height: 230px;
-    }
+  iframe {
+    width: 95vw;
+    height: 230px;
+  }
 
   .landingPageTitle h1 {
     font-size:1.5rem;
@@ -347,7 +339,7 @@ footer a:hover {
     margin: 0 auto;
   }
 
-  .pageContainer {
+  /*.pageContainer {
     padding-top: 20px;
     font-size: 1.9rem;
     padding-left:0px;
@@ -356,7 +348,6 @@ footer a:hover {
   .pageContainer h2 {
     width: 90%;
     font-size: 1.8rem;
-  }
+  }*/
 
 }
-
