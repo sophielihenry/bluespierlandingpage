@@ -94,13 +94,12 @@ main {
 
 .landingPageTitle h1 {
   font-size:3rem;
-  padding-bottom:5px;
-  text-transform: uppercase;
+ text-transform: uppercase;
 }
 
 .landingPageTitle p {
-  font-weight:lighter;
-  font-size:1.5rem;
+    font-weight: 200;
+    font-size: 1.3rem;
 }
 
 /* footer  */
@@ -201,6 +200,8 @@ main {
 
 button:hover {
     transition: background-color 0.25s ease-out, color 0.25s ease
+    border: 1px solid transparent;
+
 }
 
 .callBtn:hover {
