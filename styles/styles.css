@@ -258,6 +258,10 @@ footer a:hover {
   text-decoration: none;
 }
 
+footer a:visited {
+  color:white;
+}
+
 /*contact us*/
 .contactWrapper p {
   font-size: 1.1rem;
