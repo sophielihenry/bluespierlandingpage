@@ -1,15 +1,22 @@
 .mainContainer {
-  padding-top: 20px;
+  padding-top: 20px !important;
 }
 
 .mainContainer h2 {
   font-size: 1.9rem;
   text-align:center;
+  padding-bottom: 30px;
 }
 
 .mainContainer p {
   margin-top: 35px;
+  color:#7F8C92;
+}
 
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 html * {
@@ -23,7 +30,7 @@ strong {
 /* header */
 header {
   background-color: #447cab;
-  opacity:0.8;
+  opacity:0.9;
   height:400px;
 }
 
@@ -136,7 +143,6 @@ main {
 
 .container h3 {
   color: #4D4E4C;
-  font-weight: 400;
   font-size: 1.5rem;
   padding-bottom: 25px;
   text-transform: uppercase;
@@ -225,13 +231,21 @@ button {
 
 footer {
   background-color: #3fcfcc;
-  height: 70px;
   color:#fefefe;
   font-size: .9rem;
   opacity: .8;
   display: flex;
   justify-content: space-between;
   padding:22px;
+}
+
+footer ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+footer ul li {
+    margin-right: 20px;
 }
 
 footer a {
@@ -292,13 +306,19 @@ footer a:hover {
 
   footer p {
     margin-bottom:0;
-    height: 160px;
   }
 
-  footer {
-    text-align:center;
-    height:200px;
-  }
+ footer {
+      text-align: center;
+    display: flex;
+    flex-direction: column;
+ }
+
+ footer ul {
+     list-style: none;
+    display: inline-flex;
+    justify-content: center;
+ }
 
   .container h3 {
     font-size:1.125rem;
@@ -309,11 +329,6 @@ footer a:hover {
     width: 95vw;
     margin: auto;
     font-size:1.1875rem;
-  }
-
-  iframe {
-    width: 95vw;
-    height: 230px;
   }
 
   .landingPageTitle h1 {
