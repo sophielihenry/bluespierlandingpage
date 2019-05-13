@@ -12,7 +12,17 @@
   <body >
     <header>
       <nav>
-        <img src="images/bluespierlogo.png" alt="blue spier logo">
+
+        <?php
+      wp_nav_menu( array(
+        'theme_location' => 'menu-1',
+        'menu_id'        => 'primary-menu',
+      ) );
+      ?>
+
+     <!--    <img src="images/bluespierlogo.png" alt="blue spier logo">
+
+
           <ul>
             <li><a href="">home</a></li>
             <li><a href="">about us</a></li>
@@ -20,13 +30,15 @@
             <li><a href="">news</a></li>
             <li><a href="">customer centre</a></li>
             <li><a href="">contact us</a></li>
-          </ul>
+          </ul> -->
       </nav>
       <div class="landingPageTitle">
         <h1>Theatre Management</h1>
         <p>Integrated, effective theatre management</p>
       </div>
     </header>
+
+
     <main>
       <div class="overlapDesign"></div>
         <section>
@@ -81,7 +93,6 @@
                   <i class="fas fa-envelope"></i>
                 <p>info@bluespier.com</p>
                 </a>
-
               </div>
               <button class="contactusBtn">Get in touch</button>
           </div>
@@ -92,20 +103,16 @@
         </div>
         <div class="followUs">
           <p>Follow us</p>
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-twitter-square"></i>
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-twitter-square"></i></a>
+
         </div>
       </div>
     </section>
 
+
     <footer>
       <p>© Copyright Bluespier 2019. <a href="">Web Management by SoBold</a></p>
-
       <p>Clanwilliam Group Cookies Terms Privacy Statement</p>
-
-
     </footer>
-
-
-
   </body>
