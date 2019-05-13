@@ -1,3 +1,6 @@
+@import "mediaqueries.css";
+
+
 html * {
   font-family: "Montserrat",Helvetica,Arial,sans-serif
 }
@@ -18,7 +21,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 55px;
+  padding: 40px;
 }
 
 nav ul li {
@@ -28,11 +31,12 @@ nav ul li {
 
 nav ul li a {
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: 1.1rem;
   margin-right: 20px;
   color:white;
   opacity:0.6;
+  font-size: 0.9rem;
 }
 
 nav ul li a:hover {
@@ -140,6 +144,7 @@ main {
 
 .container h3 {
   color: #4D4E4C;
+  font-weight: 400;
   font-size: 1.5rem;
   padding-bottom: 25px;
   text-transform: uppercase;
@@ -178,13 +183,25 @@ main {
    background-color:#3fcfcc;
 }
 
+.followUs a {
+  color: #3fcfcc;
+}
+
+.followUs a:hover {
+    color:#31c4c1;
+}
+
+.callBtn {
+  background-color: #3fcfcc;
+}
+
 button:hover {
     transition: background-color 0.25s ease-out, color 0.25s ease
-
 }
 
 .callBtn:hover {
   opacity:1;
+  background-color:#31c4c1;
 }
 
 button {
